@@ -54,15 +54,18 @@ function walkRight(){
 // Finish the functions below:
 
 function walkLeft(){
-
+    character.src = `${ASSET_ROOT}/walkleft.gif`
+    direction = 'left'
 }
 
 function walkUp(){
-
+    character.src = `${ASSET_ROOT}/walkup.gif`
+    direction = 'up'
 }
 
 function walkDown(){
-
+    character.src = `${ASSET_ROOT}/walkdown.gif`
+    direction = 'down'
 }
 
 function stop(){
